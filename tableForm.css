@@ -1,0 +1,160 @@
+body {
+		font-family: Arial, Verdana, sans-serif;
+		font-size: 90%;
+		color: black;
+		background-color: #f8f8f8;
+		background-image: url(gggg.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		opacity: 1.1;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		
+	}
+.page {
+		max-width: 940px;
+		min-width: 720px;
+		margin: 10px auto 10px auto;
+		padding: 40px;
+		border: 1px solid #000;
+		background-color: #FFF5EE;
+		border-radius: 25px;
+		padding-top: 10px;
+}
+	
+h1{
+		font-size: 30px;
+		color: #black;
+		font-family: 'Young Serif', serif;
+}
+li {
+		list-style-image: url(icon-plus.png);
+		line-height: 1.9em;
+		font-family: 'AR One Sans', sans-serif;
+}
+
+table {
+		padding-top: 20px;
+		border-spacing: 0px;
+		align-items: center;
+		margin: 10px auto 10px auto;
+		padding-bottom: 50px;
+}
+
+th, td {
+		padding: 5px 30px 5px 10px;
+		border-spacing: 0px;
+		font-size: 90%;
+		margin: 0px;
+		font-family: 'AR One Sans', sans-serif;
+}
+			
+th, td {
+		text-align: left;
+		background-color: #F2D2BD;
+		border-top: 1.5px solid #F2D2BD;
+		border-bottom: 1.5px solid #F2D2BD;
+		border-right: 0.5px solid #F2D2BD;
+		border-left: 1px solid #F2D2BD;
+}
+
+tr.head th {
+		color: #fff;
+		background-color:#C9A9A6;
+		border-bottom: 2px solid #F2D2BD;
+		border-right: 1px solid #F2D2BD;
+		border-left: 1px solid #F2D2BD;
+		border-top: 2px solid #F2D2BD;
+		text-align: center;
+		text-shadow: -1px -1px 1px #F2D2BD;
+		letter-spacing: 0.15em;
+}
+	
+td {
+		text-shadow: 1px 1px 1px #ffffff;
+}
+
+tr.even td, tr.even th {
+		background-color: #FFF5EE;
+}
+
+tr.head th:first-child {
+		-webkit-border-top-left-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-right-radius: 5px;
+}
+.signa{
+		float: left;
+		margin-top: 20px;
+		margin-left: 150px;
+}
+
+fieldset {
+		width: 310px;
+		margin-top: 20px;
+		border: 1px solid #d6d6d6;
+		background-color: #F2D2BD;
+		line-height: 1.6em;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: 'AR One Sans', sans-serif;
+}
+
+legend {
+		font-style: italic;
+		color: #666666;
+		font-family: 'AR One Sans', sans-serif;
+}
+
+input[type="text"] {
+		width: 120px;
+		border: 1px solid #d6d6d6;
+		padding: 2px;
+		outline: none;
+		
+}
+
+	input[type="text"]:focus,
+	input[type="text"]:hover {
+		background-color: #d0e2f0;
+		border: 1px solid #999999;
+	}
+
+	input[type="submit"] {
+		border: 1px solid #006633;
+		background-color: #009966;
+		color: #ffffff;
+		border-radius: 5px;
+		padding: 5px;
+		margin-top: 10px;
+		font-family: 'AR One Sans', sans-serif;
+	}
+
+	input[type="submit"]:hover {
+		border: 1px solid #006633;
+		background-color: #00CC33;
+		color: #ffffff;
+		cursor: pointer;
+	}
+
+title {
+		float: left;
+		width: 160px;
+		clear: left;
+}
+submit {
+		width: 310px;
+		text-align: right;
+}
+
+	
